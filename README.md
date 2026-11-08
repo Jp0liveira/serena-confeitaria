@@ -43,7 +43,23 @@ Preservadas 9 massas, 3 recheios/caldas e 3 combinações originais. Embalagem i
 
 Sistema para operação local em um único navegador. Sem login, nuvem ou sincronização. Não use em várias abas simultaneamente para lançar movimentações. Não inclui emissão fiscal, contas a receber, consignação, pedidos ou apuração tributária. As taxas são informadas pela Serena. Validades são definidas pelo responsável pelo processo; o app não determina prazos sanitários.
 
-Não remova nem limpe o armazenamento do navegador sem exportar um backup. Restaurar substitui todos os dados. Cadastros não são excluídos para proteger as referências do histórico.
+Não remova nem limpe o armazenamento do navegador sem exportar um backup. Restaurar substitui todos os dados.
+
+## Exclusão de registros
+
+Ingredientes, receitas e produtos têm um botão **Excluir** em suas listas. É necessário confirmar no formulário antes de salvar a exclusão. Cadastros vinculados a receitas ou produtos não podem ser excluídos até que esses vínculos sejam removidos. Cadastros com lotes, movimentações ou produção registrados ficam protegidos para preservar o histórico.
+
+Em **Estoque**, o botão **Excluir** retira o lote da lista e zera seu saldo por uma movimentação identificada. Informe responsável e motivo e confirme a exclusão. O lote permanece no histórico, junto dos seus custos. Lotes com saldo zero também aparecem na lista até serem excluídos. Lotes excluídos não ficam disponíveis para ajustes de inventário. Para recuperar cadastros removidos, restaure um backup anterior.
+
+## Peso cru e preço na ficha técnica
+
+Na aba Receitas, o peso cru é calculado automaticamente. Ingredientes em gramas são somados diretamente. Mililitros usam a densidade em g/ml e ingredientes em unidades usam o peso em g/unidade, editáveis em Ingredientes. Conversões aproximadas ficam identificadas; sem conversão, a ficha mostra peso parcial e não calcula porções completas. Nas receitas antigas, ml usam provisoriamente 1 g/ml e ovos 54 g/unidade, marcados como estimativa. Corantes e outras unidades sem peso precisam de revisão.
+
+Na ficha técnica, informe o peso cru por forma para estimar porções inteiras e sobra. Esse resultado não substitui o rendimento real após o preparo, que continua sendo a base do custo por unidade. Para recheios, o rendimento real é em gramas finais e os valores unitários são por grama. A ficha mostra custos de cada ingrediente, custo por unidade com embalagem e outros custos, preço sugerido, preço aplicado e percentual comprometido. Os parâmetros da ficha são independentes do cadastro de Produtos.
+
+A receita **Bolo de leite — padrão Serena** é adicionada uma única vez, preservando suas receitas e alterações. Contém 100 g de composto na base e 40 g na saborização, 8 ovos de 50 g, rendimento real informado de 9 bolos, embalagem R$ 0,80 e preço aplicado R$ 8,00. O peso cru estimado é 3.973 g. A porção inicial de 450 g é somente uma estimativa editável: resulta em 8 porções e 373 g de sobra; ajuste-a ao peso realmente colocado em cada forma para comparar com os 9 bolos informados.
+
+O composto usa embalagem de 200 g por R$ 4,90 conforme a hipótese do chat enviado. O óleo de 100 ml foi aproximado como 100 g para usar o preço de R$ 8,00/800 g; a baunilha de 8 g foi aproximada como 8 ml. Revise esses valores pesando os ingredientes. Água tem custo zero contabilizado. Bicarbonato permanece com preço pendente, sem transformar o valor desconhecido em um preço confirmado. O custo conhecido exato é R$ 24,265333… (exibição R$ 24,27), e não R$ 24,26: a soma evita arredondar cada linha antecipadamente. Para 9 bolos: custo parcial com embalagem de R$ 3,496148… por bolo (R$ 3,50), equivalente a 43,70% da venda. Não inclui despesas não informadas nem o bicarbonato. A receita original enviada não foi substituída.
 
 ## Estrutura
 
