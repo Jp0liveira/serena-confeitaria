@@ -1,0 +1,9 @@
+_site/
+node_modules/
+*.zip
+serena-backup-*.json
+serena-movimentacoes*.csv
+.env
+.env.*
+.DS_Store
+Thumbs.db
